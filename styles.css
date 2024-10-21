@@ -1,0 +1,11 @@
+#food-images{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    border:2px solid red;
+}
+.fave_dish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
