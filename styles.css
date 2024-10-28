@@ -2,10 +2,82 @@
     width:300px;
     height:300px;
     border-radius: 20px;
-    border:2px solid red;
+    border:2px solid #93e1d8;
 }
-.fave_dish{
+#header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffa69e;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    border-radius: 8px;
+    margin:20px;
+    box-shadow: 2px 4px 8px black; 
+
+}
+#header h1{
+    color: black; 
+    font: italic bold 24px/30px 'Arial', sans-serif;
+    font-size:50px;
+    text-decoration:underline;
+}
+body{
+    /* background-color: #93e1d8; */
+    background-color: white;
+}
+.fave_dish {
+    text-align: center;
+    text-shadow: 10px;
+}
+.fave_dish h3{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    color: #333; 
+}
+
+.colors{
+    background-color: #ffa69e;
+    background-color: #93e1d8;
+    background-color: #ddfff7;
+}
+
+.dish-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; 
+    margin-bottom: 100px;
+    background-color: #ffa69e;
+    width: 70%;
+    height: 320px;
+    border-radius: 8px;
+}
+
+.dish-list li {
+    text-align: center;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px; 
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; 
+    margin-bottom: 100px;
+    background-color: #ffa69e;
+    width: 70%;
+    height: 320px;
+    border-radius: 8px;
+}
+
+.food-image {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px black; 
+    opacity: 0.9;
 }
